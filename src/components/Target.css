@@ -1,0 +1,50 @@
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: beige;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  border-radius: 0.5rem;
+  .card__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .info__name {
+      text-transform: capitalize;
+      color: #3c3c3c;
+    }
+    .info__id {
+      background-color: rgb(218, 220, 220);
+      padding: 0.5rem;
+      border-radius: 50%;
+      font-weight: 700;
+    }
+  }
+  .card__description {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    font-weight: 400;
+    color: #413d3d;
+  }
+  .info__btn {
+    border: none;
+    width: 100%;
+    height: 4rem;
+    background-color: #3c3c3c;
+    color: azure;
+    font-size: 0.9rem;
+    letter-spacing: 0.15rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  .active {
+    background-color: #fed2d2;
+  }
+  .disable {
+    background-color: rgb(40, 181, 89);
+  }
+}

@@ -1,0 +1,21 @@
+.container__gif {
+  width: 90%;
+  max-width: 1440px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: darkcyan;
+  .gif__message {
+    font-size: 2rem;
+    width: 50%;
+    color: aliceblue;
+    text-align: center;
+  }
+  .gif__img {
+    width: 50%;
+    max-width: 300px;
+  }
+}
