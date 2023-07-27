@@ -1,6 +1,6 @@
-import { Target } from './components/Target'
+import { Target } from './components/TargetCard/Target'
 import './App.css'
-import { Counter } from './components/Counter'
+import { Counter } from './components/Counter/Counter'
 import { Giphy } from './components/giphyAPI/Giphy'
 
 export const App = () => {

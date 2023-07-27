@@ -19,7 +19,7 @@ export const Counter = ({aux}) =>{
 
   return(
     <div className="container">
-      <h1 className="counter__title">Counter</h1>
+      <h2>Use State</h2>
       <p className="counter__number">{count}</p>
       <div className="counter__btn">
         <button onClick={handleIncrement} className={`btn ${count >= 20 ? 'disable': ''}`}>Increment</button>
