@@ -1,0 +1,67 @@
+.card__user {
+  width: 450px;
+  height: 80px;
+  background-color: rgb(6, 65, 113);
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+.card__user .user__info {
+  width: 200px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.card__user .user__info .info {
+  display: flex;
+  flex-direction: column;
+}
+.card__user .user__info .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.card__user .user__following .following-cta {
+  width: 150px;
+  border: 1px solid #e1d9d9;
+  background-color: #e1d9d9;
+  color: rgb(23, 23, 23);
+  font-size: 0.9rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.card__user .user__following .following-cta:hover {
+  background-color: #a39797;
+  color: #fff;
+}
+
+.card__user .user__following .is-following {
+  border: 1px solid #bbb;
+  background-color: transparent;
+  color: #fff;
+}
+.card__user .user__following .is-following:hover {
+  background-color: rgba(255, 0, 0, 0.178);
+  color: red;
+  border: 1px solid red;
+  transition: all 0.3s ease;
+}
+.card__user .user__following .is-following:hover .follow-text {
+  display: none;
+}
+.card__user .user__following .is-following:hover .stopFollow-text {
+  display: block;
+}
+.stopFollow-text {
+  display: none;
+}

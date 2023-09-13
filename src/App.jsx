@@ -2,6 +2,7 @@ import { Target } from './components/TargetCard/Target'
 import './App.css'
 import { Counter } from './components/Counter/Counter'
 import { Giphy } from './components/giphyAPI/Giphy'
+import { Following }  from './components/TwitterCard/Following'
 
 export const App = () => {
   return (
@@ -15,6 +16,12 @@ export const App = () => {
         <Counter aux={10}/>
       </div>
       <Giphy />
+      <h2 className="title">Uso de Props Renderizado condicional UseState</h2>
+      <div className="container__following">
+        <Following name='Miguel Perez' username='midudev' initialFollowing={false}/>
+        <Following name='Will Smith' username='willsmith' initialFollowing/>
+        <Following name='Elena Toro' username='elenatoro' initialFollowing={false}/>
+      </div>
     </>
   )
 }

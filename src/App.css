@@ -17,3 +17,23 @@
   margin: 0 auto;
   color: aliceblue;
 }
+.title {
+  text-align: center;
+  color: cadetblue;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+.container__following {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  gap: 1rem;
+  margin: 3rem auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
