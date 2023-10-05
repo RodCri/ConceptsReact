@@ -1,0 +1,31 @@
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #072a40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  .square__content {
+    color: rgb(214, 211, 214);
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+.square:first-child {
+  border-top-left-radius: 1rem;
+}
+.square:last-child {
+  border-bottom-right-radius: 1rem;
+}
+.square:nth-child(3) {
+  border-top-right-radius: 1rem;
+}
+.square:nth-child(7) {
+  border-bottom-left-radius: 1rem;
+}
+.is-selected {
+  border: 2px solid #07f3fb;
+  border-radius: 1rem;
+}

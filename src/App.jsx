@@ -1,37 +1,39 @@
 //import { Target } from './components/TargetCard/Target'
 import './App.css'
+import Board from './components/TicTac/Board'
 //import { Counter } from './components/Counter/Counter'
 //import { Giphy } from './components/giphyAPI/Giphy'
-import { Following }  from './components/TwitterCard/Following'
+// import { Following }  from './components/TwitterCard/Following'
 
-const usersData = [
-  {
-    name: 'Miguel Perez',
-    username: 'midudev',
-    isFollowing: false
-  },
-  {
-    name: 'Will Smith',
-    username: 'willsmith',
-    isFollowing: true
-  },
-  {
-    name: 'Elena Toro',
-    username: 'elenatoro',
-    isFollowing: false
-  }
-];
+// const usersData = [
+//   {
+//     name: 'Miguel Perez',
+//     username: 'midudev',
+//     isFollowing: false
+//   },
+//   {
+//     name: 'Will Smith',
+//     username: 'willsmith',
+//     isFollowing: true
+//   },
+//   {
+//     name: 'Elena Toro',
+//     username: 'elenatoro',
+//     isFollowing: false
+//   }
+// ];
 export const App = () => {
   return (
     <>
-      {
+    <Board></Board>
+      {/* {
         usersData.map(user => {
           const {name, username, isFollowing} = user;
           return (
             <Following name={name} username={username} initialFollowing={isFollowing} key={username} />
           )
         })
-      }
+      } */}
       {/* 
       <h2 className="title">Props and UseState</h2>
       <div className='cards'>
