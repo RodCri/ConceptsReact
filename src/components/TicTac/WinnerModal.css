@@ -1,0 +1,61 @@
+.winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(31 100 57 / 40%);
+  .winner__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdc8c8;
+    width: 500px;
+    height: 350px;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px 0 rgb(19, 217, 79);
+    .result {
+      color: #072a40;
+      font-size: 2.5rem;
+      font-family: "Courier New", Courier, monospace;
+      font-style: italic;
+    }
+    .win {
+      .square {
+        border-radius: 1rem;
+        background-color: rgb(11, 179, 61);
+        .square__content {
+          color: #072a40;
+          font-weight: 700;
+        }
+      }
+    }
+    .reset {
+      background-color: #072a40;
+      width: 260px;
+      height: 50px;
+      color: #fff;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      font-family: "Courier New", Courier, monospace;
+      font-style: italic;
+      font-weight: 700;
+      letter-spacing: 0.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      &:hover {
+        background-color: rgb(3, 90, 36);
+        color: #fff;
+      }
+    }
+  }
+}

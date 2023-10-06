@@ -28,5 +28,24 @@
   .turn {
     display: flex;
     gap: 1rem;
+    cursor: not-allowed;
+  }
+  .footer__reset {
+    background-color: #07f3fb;
+    width: 250px;
+    height: 55px;
+    border: 1px solid #07f3fb;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #072a40;
+      color: #cdc8c8;
+    }
   }
 }

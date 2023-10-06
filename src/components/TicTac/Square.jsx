@@ -2,7 +2,7 @@ import './Square.css';
 // eslint-disable-next-line react/prop-types
 const Square = ({children, updateBoard, index, isSelected}) => {
   
-  const className = `square ${isSelected ? 'is-selected' : ''}`
+  const className = `square ${isSelected ? 'is-selected' : 'not-selected'}`
 
   const handleClick = () =>{
     updateBoard(index)
