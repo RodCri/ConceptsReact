@@ -1,6 +1,7 @@
 //import { Target } from './components/TargetCard/Target'
 import './App.css'
-import Board from './components/TicTac/Board'
+import { ListTasks } from './components/Task/ListTasks'
+// import Board from './components/TicTac/Board'
 //import { Counter } from './components/Counter/Counter'
 //import { Giphy } from './components/giphyAPI/Giphy'
 // import { Following }  from './components/TwitterCard/Following'
@@ -25,7 +26,8 @@ import Board from './components/TicTac/Board'
 export const App = () => {
   return (
     <>
-    <Board></Board>
+    <ListTasks></ListTasks>
+    {/* Game TicTacToe <Board></Board> */}
       {/* {
         usersData.map(user => {
           const {name, username, isFollowing} = user;

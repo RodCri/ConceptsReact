@@ -1,0 +1,46 @@
+.container {
+  background-color: darkcyan;
+  color: aliceblue;
+  padding: 5rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5rem;
+  .container__form {
+    background-color: antiquewhite;
+    color: darkblue;
+    width: 400px;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .container__list {
+    background-color: bisque;
+    color: darkblue;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 50%;
+    .title__list {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .list__task {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      .list__item {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: darkslateblue;
+      }
+    }
+  }
+}
