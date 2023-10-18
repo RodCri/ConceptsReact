@@ -9,7 +9,7 @@ export const ListTasks = () => {
   const [listTasks, setListTasks] = useState(taskList);
 
   const onAddTask = (val) =>{
-    if(val>1) return
+    if(val<1) return
     const newTask = {
       id: listTasks.length,
       taskName: val,

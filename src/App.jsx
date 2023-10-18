@@ -1,6 +1,8 @@
 //import { Target } from './components/TargetCard/Target'
 import './App.css'
-import { ListTasks } from './components/Task/ListTasks'
+// import { FetchList } from './components/Fetch/FetchList'
+//import { ListTasks } from './components/Task/ListTasks'
+// import { ListUsers } from './components/Users/ListUsers'
 // import Board from './components/TicTac/Board'
 //import { Counter } from './components/Counter/Counter'
 //import { Giphy } from './components/giphyAPI/Giphy'
@@ -26,7 +28,9 @@ import { ListTasks } from './components/Task/ListTasks'
 export const App = () => {
   return (
     <>
-    <ListTasks></ListTasks>
+    {/* Fetch <ListUsers></ListUsers>
+    <FetchList></FetchList> */}
+    {/* Todo App<ListTasks></ListTasks> */}
     {/* Game TicTacToe <Board></Board> */}
       {/* {
         usersData.map(user => {
