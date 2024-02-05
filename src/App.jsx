@@ -9,6 +9,7 @@ import { Counter } from './components/CounterWithCustomHooks/Counter';
 //import { Giphy } from './components/giphyAPI/Giphy'
 // import { Following }  from './components/TwitterCard/Following'
 import {AppUser} from './components/CustomHooks/AppUser';
+import { RegisterForm } from './components/Formulario/RegisterForm';
 
 // const usersData = [
 //   {
@@ -63,7 +64,10 @@ export const App = () => {
       </div> */}
       <h1>Custom Hooks</h1>
       <AppUser></AppUser>
+      <hr />
       <Counter></Counter>
+      <hr />
+      <RegisterForm></RegisterForm>
     </>
   )
 }

@@ -1,0 +1,9 @@
+.form {
+  width: 50%;
+  background-color: beige;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.form-group {
+  margin: 1rem 0;
+}
