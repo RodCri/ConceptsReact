@@ -1,5 +1,6 @@
 //import { Target } from './components/TargetCard/Target'
 import './App.css'
+import { Counter } from './components/CounterWithCustomHooks/Counter';
 // import { FetchList } from './components/Fetch/FetchList'
 //import { ListTasks } from './components/Task/ListTasks'
 // import { ListUsers } from './components/Users/ListUsers'
@@ -7,6 +8,7 @@ import './App.css'
 //import { Counter } from './components/Counter/Counter'
 //import { Giphy } from './components/giphyAPI/Giphy'
 // import { Following }  from './components/TwitterCard/Following'
+import {AppUser} from './components/CustomHooks/AppUser';
 
 // const usersData = [
 //   {
@@ -59,6 +61,9 @@ export const App = () => {
         <Following name='Will Smith' username='willsmith' initialFollowing/>
         <Following name='Elena Toro' username='elenatoro' initialFollowing={false}/>
       </div> */}
+      <h1>Custom Hooks</h1>
+      <AppUser></AppUser>
+      <Counter></Counter>
     </>
   )
 }
