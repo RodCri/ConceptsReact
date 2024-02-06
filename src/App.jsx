@@ -1,15 +1,17 @@
 //import { Target } from './components/TargetCard/Target'
 import './App.css'
-import { Counter } from './components/CounterWithCustomHooks/Counter';
+//import { Counter } from './components/CounterWithCustomHooks/Counter';
 // import { FetchList } from './components/Fetch/FetchList'
-//import { ListTasks } from './components/Task/ListTasks'
+// import { ListTasks } from './components/Task/ListTasks'
 // import { ListUsers } from './components/Users/ListUsers'
 // import Board from './components/TicTac/Board'
-//import { Counter } from './components/Counter/Counter'
-//import { Giphy } from './components/giphyAPI/Giphy'
+// import { Counter } from './components/Counter/Counter'
+// import { Giphy } from './components/giphyAPI/Giphy'
 // import { Following }  from './components/TwitterCard/Following'
-import {AppUser} from './components/CustomHooks/AppUser';
-import { RegisterForm } from './components/Formulario/RegisterForm';
+// import {AppUser} from './components/CustomHooks/AppUser';
+// import { RegisterForm } from './components/Formulario/RegisterForm';
+// import { Players } from './components/FetchCustomHook/Players'
+import { FormRegister } from './components/UseRef/FormRegister'
 
 // const usersData = [
 //   {
@@ -62,12 +64,15 @@ export const App = () => {
         <Following name='Will Smith' username='willsmith' initialFollowing/>
         <Following name='Elena Toro' username='elenatoro' initialFollowing={false}/>
       </div> */}
-      <h1>Custom Hooks</h1>
+      {/* <h1>Custom Hooks</h1>
       <AppUser></AppUser>
       <hr />
       <Counter></Counter>
       <hr />
-      <RegisterForm></RegisterForm>
+      <RegisterForm></RegisterForm> */}
+      {/* <h1>Custom Hook FetchApi</h1>
+      <Players></Players> */}
+      <FormRegister></FormRegister>
     </>
   )
 }
