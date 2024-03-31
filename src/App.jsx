@@ -1,5 +1,7 @@
 //import { Target } from './components/TargetCard/Target'
 import './App.css'
+import { CleanUri } from './components/CleanURI/CleanUri'
+//import TodoApp from './components/UseMemo/TodoApp'
 //import { Counter } from './components/CounterWithCustomHooks/Counter';
 // import { FetchList } from './components/Fetch/FetchList'
 // import { ListTasks } from './components/Task/ListTasks'
@@ -11,7 +13,7 @@ import './App.css'
 // import {AppUser} from './components/CustomHooks/AppUser';
 // import { RegisterForm } from './components/Formulario/RegisterForm';
 // import { Players } from './components/FetchCustomHook/Players'
-import { FormRegister } from './components/UseRef/FormRegister'
+// import { FormRegister } from './components/UseRef/FormRegister'
 
 // const usersData = [
 //   {
@@ -72,7 +74,11 @@ export const App = () => {
       <RegisterForm></RegisterForm> */}
       {/* <h1>Custom Hook FetchApi</h1>
       <Players></Players> */}
-      <FormRegister></FormRegister>
+      {/* <h1>UseRef</h1>
+      <FormRegister></FormRegister> */}
+      {/* <h1>Use Memo</h1>
+      <TodoApp></TodoApp> */}
+      <CleanUri></CleanUri>
     </>
   )
 }
